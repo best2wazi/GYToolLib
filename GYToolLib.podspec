@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/gongxj/GYToolLib'
+  s.homepage         = 'https://github.com/best2wazi/GYToolLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gongxj' => 'xujie.gong@cqmfin.com' }
-  s.source           = { :git => 'https://github.com/gongxj/GYToolLib.git', :tag => s.version.to_s }
+  s.author           = { 'gongxujie' => '517526470@qq.com' }
+  s.source           = { :git => 'https://github.com/best2wazi/GYToolLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
