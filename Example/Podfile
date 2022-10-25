@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GYToolLib_Example' do
+  pod 'GYToolLib', :path => '../'
+
+  target 'GYToolLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

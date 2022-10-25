@@ -1,0 +1,16 @@
+PODS:
+  - GYToolLib (0.1.0)
+
+DEPENDENCIES:
+  - GYToolLib (from `../`)
+
+EXTERNAL SOURCES:
+  GYToolLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GYToolLib: ffe00a0f889a54b5f62b5aed9e2c3f7efaba170f
+
+PODFILE CHECKSUM: a6c7c5e8655c8fa4dd133156fb0fa4ea84801463
+
+COCOAPODS: 1.11.3

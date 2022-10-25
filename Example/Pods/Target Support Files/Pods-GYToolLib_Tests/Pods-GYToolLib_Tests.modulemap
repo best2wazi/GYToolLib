@@ -1,0 +1,6 @@
+framework module Pods_GYToolLib_Tests {
+  umbrella header "Pods-GYToolLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
