@@ -22,7 +22,7 @@ pod 'GYToolLib'
 
 ## Author
 
-gongxj, xujie.gong@cqmfin.com
+gongxujie, 517526470@qq.com
 
 ## License
 
