@@ -15,6 +15,8 @@
 		635F796DD21A82DDBA1A649363F098A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		90FDFAA435BAE71F9F19DB659B952899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A159F8DD642A2AEEE8A9E2EFDC493D58 /* Pods-GYToolLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A06598280B47828ABAB16B74BF0834CF /* Pods-GYToolLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF6800E7290907B700452B71 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = AF6800E5290907B700452B71 /* UIView+Frame.h */; };
+		AF6800E8290907B700452B71 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6800E6290907B700452B71 /* UIView+Frame.m */; };
 		D51D25662949F94E0EB18751C7EE87F3 /* Pods-GYToolLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C85FC1797F7D00A570416C71B94DD3 /* Pods-GYToolLib_Example-dummy.m */; };
 		DC0F6DE8EAE645ED73D2C1B4B53C8717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EE24D8F3394BB9164A23E5C77F09B46D /* Pods-GYToolLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B4DAF8FD1AF8A307D4BBEBFB813876 /* Pods-GYToolLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		0857621FBB78259D4A0B9A9707DD6241 /* GYToolLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GYToolLib-dummy.m"; sourceTree = "<group>"; };
-		08DD090933E01B0EF3215DDD9E5C0EEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		08DD090933E01B0EF3215DDD9E5C0EEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		13DD62B3747641364F85E2F0E5583991 /* Pods-GYToolLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYToolLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		14D582E310B62DC7DBC2701B85FF5AB6 /* Pods-GYToolLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GYToolLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		1F73422D394DB7AEE9738BA765A7D711 /* Pods-GYToolLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYToolLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		4DDEB19E3326AEA3CD444FA4D56300D4 /* Pods-GYToolLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYToolLib_Example-Info.plist"; sourceTree = "<group>"; };
 		529DEDDC8C5A4FC40DEB7C49F47AAD0B /* GYToolLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GYToolLib; path = GYToolLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5948655127D8B018DE6EC8B011F2C96D /* Pods-GYToolLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYToolLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D75B2C41F59C3CB456BEF66EDD15EBF /* GYToolLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GYToolLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D75B2C41F59C3CB456BEF66EDD15EBF /* GYToolLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GYToolLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		62C85FC1797F7D00A570416C71B94DD3 /* Pods-GYToolLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GYToolLib_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7746D7EF8E335DF9B5E8FA147BEF962E /* GYToolLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYToolLib-umbrella.h"; sourceTree = "<group>"; };
@@ -58,10 +60,12 @@
 		80109EF6EA2AD5BB1ABD8D70695F4554 /* Pods-GYToolLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GYToolLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		967919094BD95D97C47E6176A1EF3880 /* Pods-GYToolLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GYToolLib_Tests.modulemap"; sourceTree = "<group>"; };
 		9B79F842458AC11598B1962695A35998 /* Pods-GYToolLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYToolLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A06598280B47828ABAB16B74BF0834CF /* Pods-GYToolLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GYToolLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		A8E2AADBD644850311BE2BDF9FB83A15 /* Pods-GYToolLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GYToolLib_Example.modulemap"; sourceTree = "<group>"; };
 		A9B4DAF8FD1AF8A307D4BBEBFB813876 /* Pods-GYToolLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GYToolLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AF6800E5290907B700452B71 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "GYToolLib/Classes/UIView+Frame.h"; sourceTree = "<group>"; };
+		AF6800E6290907B700452B71 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "GYToolLib/Classes/UIView+Frame.m"; sourceTree = "<group>"; };
 		B5D568232149CA7D4A754B2C25F0FE89 /* Pods-GYToolLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYToolLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C00C4A94531BE3235525C88BFB75843D /* GYToolLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GYToolLib-Info.plist"; sourceTree = "<group>"; };
 		C4AAA3BCCEC1F62C005FF1AA6029699B /* GYToolLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GYToolLib.release.xcconfig; sourceTree = "<group>"; };
@@ -71,7 +75,7 @@
 		D0D1FADEA2A80D928C8733EAF2238AE1 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "GYToolLib/Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
 		D2A7BB790602829F66E8983BBD0BD597 /* Pods-GYToolLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYToolLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF474C8540B16B51FC220EF0F240F946 /* GYToolLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYToolLib-prefix.pch"; sourceTree = "<group>"; };
-		F9FAFBCE20F4031A2EA537B2E66A0DEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F9FAFBCE20F4031A2EA537B2E66A0DEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +197,8 @@
 			children = (
 				27EEBBE299096B7BF65F1ACAC26A4BD4 /* UIColor+Hex.h */,
 				D0D1FADEA2A80D928C8733EAF2238AE1 /* UIColor+Hex.m */,
+				AF6800E5290907B700452B71 /* UIView+Frame.h */,
+				AF6800E6290907B700452B71 /* UIView+Frame.m */,
 				65DC339C509E2DCFFB47A0A6A1B6509B /* Pod */,
 				4DCED9F55C3FD1F8D69E3598D4BE98AD /* Support Files */,
 			);
@@ -251,6 +257,7 @@
 			files = (
 				05A072E727521C00D4B9F79CEF94BE4B /* GYToolLib-umbrella.h in Headers */,
 				5D2F9DF7367FEBBB80903C908BFC9F93 /* UIColor+Hex.h in Headers */,
+				AF6800E7290907B700452B71 /* UIView+Frame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6800E8290907B700452B71 /* UIView+Frame.m in Sources */,
 				4F31829C2414390D0B815852BD5FBD90 /* GYToolLib-dummy.m in Sources */,
 				60811919A6CC0725F3C145D4B15EFF72 /* UIColor+Hex.m in Sources */,
 			);
@@ -596,8 +604,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
